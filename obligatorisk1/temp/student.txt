@@ -1,0 +1,4 @@
+gb;Geir;Bjarvin;IS1
+mj;Marius;Johannesen;IS1
+lb;Lasse;Berntzen;IS3
+mpmp;martin;pedersen;test2

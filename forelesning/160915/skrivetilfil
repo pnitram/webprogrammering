@@ -1,0 +1,29 @@
+<?php
+
+
+$fornavn="martin";
+$etternavn="pedersen"
+
+
+$fornavn=$_POST["fornavn"];
+$etternavn=_$POST["etternavn"];
+if (!$fornavn||!$etternavn) {
+	print("Begge felt må være fylt ut");
+}
+
+//$filnavn="D:\\Sites\\home.hbv.no\\phptemp\\882555/navn.txt";
+
+/* append= føye til */
+
+$filnavn="../temp/navn.txt";
+$filoperasjon="a";
+$linje=$fornavn." ".$etternavn."\n";
+$fil=fopen($filnavn, $filoperasjon);
+fwrite($fil, $linje);
+fclose($fil);
+
+
+
+
+
+?>

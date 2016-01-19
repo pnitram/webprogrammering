@@ -1,0 +1,6 @@
+IS1;Informasjonsystemer 1. år
+IS2;Informasjonsystemer 2. år
+IS3;Informasjonssystemer 3. år
+aab;teknikk
+aab;pppkpk
+test2;testtesttest

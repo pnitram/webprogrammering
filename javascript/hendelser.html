@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript form</title>
+    <script src="hendelser.js"></script>
+    <script src="validering.js"></script>
+</head>
+
+<body>
+    <form method="post" action="" id="jshendelser1" name="jshendelser1" onSubmit="return validerRegistrerStudentdata()" /> Postnr
+    <input type="text" id="postnr" name="postnr" onFocus="focus(this)" onblur="mistetFokus(this)" onMouseOver="musInn(this)" onMousOut="musUt()" />
+    <br /> Poststed
+    <input type="text" id="poststed" name="poststed" onFocus="focus(this)" onBlur="mistetFokus(this)" onMouseOver="musInn(this)" onMousOut="musUt()" onChange="endreTilStoreBokstaver(this)" />
+    <br />
+    <input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
+    <br />
+    <input type="reset" value="Nullstill" id="nullstill" name="nullstill" onClick='settFokus(document.getElementById("postnr"))' onClick="fjernMelding()" >
+ </form>
+
+
+<div id=" melding "></div>
+
+
+
+</body>
+</html>

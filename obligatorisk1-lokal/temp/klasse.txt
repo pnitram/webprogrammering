@@ -1,0 +1,10 @@
+IS1;Informasjonsystemer 1. år
+IS2;Informasjonsystemer 2. år
+IS3;Informasjonssystemer 3. år
+aab;teknikk
+aab;pppkpk
+test2;testtesttest
+23323;3434
+aaa;aaa
+iosi;isi2000
+1111111111111111;111111111111111111

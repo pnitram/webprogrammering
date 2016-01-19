@@ -1,0 +1,23 @@
+label {
+	float: left;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+	margin-right: 10px;
+	
+}
+input#fortsett, input#reset {
+	margin-top: 0.5em;
+	width: 100px;
+	margin-left: 110px;
+}
+input {
+	display: block;
+	margin: 5px;
+		
+}
+
+h3 {
+	margin-top: 70px;
+	margin-left: 90px;
+}

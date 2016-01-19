@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Øvingsoppgave 2-7</title>
+    <meta charset="utf8">
+</head>
+
+<body>
+<form method="post" action="oppgave2-7.php" id="oppgave2-7" name="opgave2-7">
+Tall1	 		<input type="text" id="tall1" name="tall1" required /><br>
+Tall2  			<input type="text" id="tall2" name="tall2" required /><br>
+Tall3  			<input type="text" id="tall3" name="tall3" required /><br>
+				<input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
+				<input type="reset" value="Nullstill" id="nullstill" name="nullstill" />
+	
+</form>
+<?php 
+
+@$fortsett=$_POST ["fortsett"];
+
+if ($fortsett){
+	print("test");
+}
+
+
+</body>
+
+</html>
