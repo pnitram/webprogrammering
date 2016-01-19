@@ -1,6 +1,6 @@
 <?php
 
-$world= 'world';
+$world= 'world! It's a nice day!';
 
 echo 'Hello ' . $world .'';
 
