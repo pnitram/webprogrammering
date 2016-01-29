@@ -4,6 +4,6 @@
 
 <ul>
 	<li><a href="./registrere-data-fag.php">Registrere data i tabell: Fag</a></li>
-		<li><a href="./registrere-data-oppgave.php">Registrere data i tabell: Oppgave</a></li>
+	<li><a href="./registrere-data-oppgave.php">Registrere data i tabell: Oppgave</a></li>
 	<li><a href="./les-data.php">Vis fra tabell</a></li>
 </ul>
