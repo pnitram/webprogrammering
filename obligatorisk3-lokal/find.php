@@ -5,6 +5,8 @@
 
     <link rel="stylesheet" type="text/css" href="./style.css">
     <meta charset="utf-8">
+    <script src="hendelser.js"></script>
+    <script src="soekhendelse.js"></script>
 </head>
 <body>
 
@@ -19,7 +21,7 @@
 <h2>S&oslash;k i tabellene</h2>
 <div class="container">
 <form method="post" action="" id="sokeSkjema" name="sokeSkjema">
-Søk: <input type="text" id="find" name="find" required /> <br/>
+Søk: <input type="text" id="find" name="find" onfocus="fokus(this)" onblur="mistetFokus(this)" onmouseover="musOverSF(this)" onmouseout="musUt(this)" required /> <br/>
 <input type="submit" value="S&oslash;k n&aring;" id="fortsett" name="fortsett"/><br>
 <input type="reset" value="Nullstill" id="nullstill" name="nullstill"/>
 </form>
@@ -136,6 +138,8 @@ if ($fortsett) {
 <!-- SLUTT PÅ PHP -->
 
 
+<!-- JAVASCRIPT MELDING  -->
+<div id="melding"></div>
 
 
 </main>

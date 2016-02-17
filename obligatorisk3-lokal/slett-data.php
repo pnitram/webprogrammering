@@ -79,7 +79,7 @@ else {
 
 }
 
-$fortsettKlasse=$_POST["fortsettKlasse"];
+@$fortsettKlasse=$_POST["fortsettKlasse"];
 if ($fortsettKlasse) {
 
 	$klassekode=$_POST["velgKlasse"];
@@ -92,7 +92,7 @@ if ($fortsettKlasse) {
 
 }
 /////////////////////////////////////////////////////////////////////////////////////////////
-$fortsettStudent=$_POST["fortsettStudent"];
+@$fortsettStudent=$_POST["fortsettStudent"];
 if ($fortsettStudent) {
 
 	$brukernavn=$_POST["velgStudent"];
@@ -111,6 +111,8 @@ if ($fortsettStudent) {
 <!-- SLUTT PÅ PHP -->
 
 
+<!-- JAVASCRIPT MELDING  -->
+<div id="melding"></div>
 
 
 </main>

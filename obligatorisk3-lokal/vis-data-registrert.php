@@ -49,16 +49,16 @@ if ($tabell == "klasse") {
 	
 	for ($v=1;$v<=$antallRader;$v++) {
 
-	$rad=mysqli_fetch_array($sqlResultat);
-	$klassekode=$rad["klassekode"];
-	$klassenavn=$rad["klassenavn"];
-	$faglaerer=$rad["faglaerer"];
+	@$rad=mysqli_fetch_array($sqlResultat);
+	@$klassekode=$rad["klassekode"];
+	@$klassenavn=$rad["klassenavn"];
 	
 	print("$klassekode, $klassenavn </br>");
 
 }
 print("</div>");
 }
+
 else {
 
 		print("<div class='box'>");
@@ -70,7 +70,7 @@ else {
 	$etternavn=$rad["etternavn"];
 	$klassekode=$rad["klassekode"];
 	
-	print("$brukernavn, $fornavn, $etternavn, $klassenavn </br>");
+	print("$brukernavn, $fornavn, $etternavn, $klassekode </br>");
 	
 
 }
@@ -85,6 +85,8 @@ print("</div>");
 <!-- SLUTT PÅ PHP -->
 
 
+<!-- JAVASCRIPT MELDING  -->
+<div id="melding"></div>
 
 
 </main>

@@ -1,5 +1,5 @@
 <h1>Obligatorisk oppgave 3</h1>
-<h2>Student: Martin Pedersen</h2>
+<h2>Student: Martin Pedersen og <br> Unni Le</h2>
 <h3>Brukerfunksjoner</h3>
 
 <ul>

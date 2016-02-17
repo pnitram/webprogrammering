@@ -9,11 +9,11 @@
 		$lovligKlassekode=false;
 	}
 	else {
-	$tegn1=substr($klassekode, 0, 1);
-	$tegn2=substr($klassekode, 1, 1);
-	$tegn3=substr($klassekode, 2, 1);
+	@$tegn1=substr($klassekode, 0, 1);
+	@$tegn2=substr($klassekode, 1, 1);
+	@$tegn3=substr($klassekode, 2, 1);
 } 
-	if ($tegn1 <"A" || $tegn1 >"Z" || $tegn2 <"A" || $tegn2 >"Z" || $tegn3 <"1" || $tegn3 >"9") {
+	if (@$tegn1 <"A" || @$tegn1 >"Z" || @$tegn2 <"A" || @$tegn2 >"Z" || @$tegn3 <"1" || @$tegn3 >"9") {
 		$lovligKlassekode=false;
 	}
  return $lovligKlassekode;

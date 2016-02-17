@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 
     <link rel="stylesheet" type="text/css" href="./style.css">
+     <script src="hendelser.js"></script>
 </head>
 <body>
 
@@ -77,7 +78,7 @@ else {
 
 }
 
-$fortsettKlasse=$_POST["fortsettKlasse"];
+@$fortsettKlasse=$_POST["fortsettKlasse"];
 if ($fortsettKlasse) {
 
 	$klassekode=$_POST["velgKlasse"];
@@ -101,7 +102,7 @@ if ($fortsettKlasse) {
 		print("<form method='post' action='' id='endreSteg3' name='endreSteg3' onSubmit='return bekreft()'/>");
 		print("<h3>Endre $klassenavn:</h3>");
 		print("Klassekode: <input type='text' id='klassekode' name='klassekode' value='$klassekode' readonly /> <br />");
-		print("Klassenavn: <input type='text' id='klassenavn' name='klassenavn' value='$klassenavn' />"); ///FINNE UT AV DETTE
+		print("Klassenavn: <input type='text' id='klassenavn' name='klassenavn' value='$klassenavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRK(this)' onmouseout='musUt(this)' required />"); 
 		print("<br><input type='submit' value='Endre' id='fortsett3' name='fortsett3'/>");
 		print("<input type='reset' value='Nullstill' id='nullstill' name='nullstill'/>");
 		print("</form>");
@@ -133,7 +134,7 @@ if ($fortsett3){
 
 }
 /////////////////////////////////////////////////////////////////////////////////////////////
-$fortsettStudent=$_POST["fortsettStudent"];
+@$fortsettStudent=$_POST["fortsettStudent"];
 if ($fortsettStudent) {
 
 	$brukernavn=$_POST["velgStudent"];
@@ -160,8 +161,8 @@ if ($fortsettStudent) {
 		print("<form method='post' action='' id='endreSteg4' name='endreSteg4' onSubmit='return bekreft()'/>");
 		print("<h3>Endre $fornavn $etternavn:</h3> ");
 		print("Brukernavn: <input type='text' id='brukernavn' name='brukernavn' value='$brukernavn' readonly /> <br />");
-		print("Fornavn: <input type='text' id='fornavn' name='fornavn' value='$fornavn' />");
-		print("Etternavn: <input type='text' id='etternavn' name='etternavn' value='$etternavn' /> <br />");
+		print("Fornavn: <input type='text' id='fornavn' name='fornavn' value='$fornavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/>");
+		print("Etternavn: <input type='text' id='etternavn' name='etternavn' value='$etternavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/> <br />");
 		print("Klassekode: <input type='text' id='klassekode' name='klassekode' value='$klassekode' readonly />");
 		print("<br><input type='submit' value='Endre' id='fortsett4' name='fortsett4'/>");
 		print("<input type='reset' value='Nullstill' id='nullstill' name='nullstill'/>");
@@ -204,6 +205,8 @@ if ($fortsett4){
 
 
 
+<!-- JAVASCRIPT MELDING  -->
+<div id="melding"></div>
 
 </main>
 
