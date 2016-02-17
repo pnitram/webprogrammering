@@ -19,7 +19,7 @@
 	<li><a href="./vis-data-registrert.php">Vis data registrert i tabell</a></li>
 	<li><a href="./endre-data.php">Endre data i tabell</a></li>
 	<li><a href="./slett-data.php">Slett data fra tabell</a></li>
-	<li><a href="./find.php">Søk i tabell</a></li>
+	<li><a href="./find.php">S&oslash;k i tabell</a></li>
 </ul>
 
 

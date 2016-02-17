@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SØK ETTER DATA REGISTRERT I TABELL</title>
+	<title>S&Oslash;K ETTER DATA REGISTRERT I TABELL</title>
 
     <link rel="stylesheet" type="text/css" href="./style.css">
     <meta charset="utf-8">
@@ -16,11 +16,11 @@
 <main>
 <div class="rightside">
 <div class="box">
-<h2>Søk i tabellene</h2>
+<h2>S&oslash;k i tabellene</h2>
 <div class="container">
 <form method="post" action="" id="sokeSkjema" name="sokeSkjema">
 Søk: <input type="text" id="find" name="find" required /> <br/>
-<input type="submit" value="Fortsett" id="fortsett" name="fortsett"/><br>
+<input type="submit" value="S&oslash;k n&aring;" id="fortsett" name="fortsett"/><br>
 <input type="reset" value="Nullstill" id="nullstill" name="nullstill"/>
 </form>
 </div>
