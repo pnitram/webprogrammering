@@ -3,6 +3,7 @@
 <head>
 	<title>Registrere klasse</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="utf-8">
     <script src="hendelser.js"></script>
     <script src="validering.js"></script>
     <!--<script src="validering.js"></script>-->

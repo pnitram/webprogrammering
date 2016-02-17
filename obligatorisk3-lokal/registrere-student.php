@@ -2,8 +2,7 @@
 <html>
 <head>
 	<title>Registrere student</title>
-
-
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <script src="hendelser.js"></script>
     <script src="validering.js"></script>
