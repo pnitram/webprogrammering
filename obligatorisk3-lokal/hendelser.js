@@ -50,20 +50,4 @@ function tilStore(element){
 function fjernMelding()
 {
   document.getElementById("melding").innerHTML="";   
-}  
-
-function finn(sokeord)
-{
-  var finn=new XMLHttpRequest();
-  
-  finn.onreadystatechange=function() 
-    {
-      if (finn.readyState==4 && finn.status==200)
-        {
-          document.getElementById("melding").innerHTML=finn.responseText;
-        }
-    }
-
-  finn.open("GET","search.php?sokeord="+sokeord);
-  finn.send();
 }

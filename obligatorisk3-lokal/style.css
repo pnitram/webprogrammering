@@ -1,3 +1,6 @@
+    body {
+        background-color: lightgrey;
+    }
     .container {
         width: 220px;
         clear: both;
@@ -6,6 +9,7 @@
     .container input {
         width: 100%;
         clear: both;
+        margin-top: 2%;
         margin-bottom: 2%;
     }
     
@@ -20,10 +24,13 @@
     }
     .box {
         border: 1px solid black;
+        background-color: lightblue;
         padding: 2em;
         clear: both;
         width: 16em;
-        margin-bottom: 1em;}
+        margin-bottom: 1em;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #888888;}
     #melding {
         float: left;
         clear: both;}

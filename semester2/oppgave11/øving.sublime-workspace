@@ -1,0 +1,1189 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tabell",
+				"tabellnavn"
+			],
+			[
+				"Tabe",
+				"tabellListe"
+			],
+			[
+				"ta",
+				"tableList"
+			],
+			[
+				"post",
+				"poststed"
+			],
+			[
+				"pos",
+				"poststed"
+			],
+			[
+				"endre",
+				"EndrePoststedKnapp"
+			],
+			[
+				"sql",
+				"sqlSetning"
+			],
+			[
+				"mysq",
+				"mysql_query"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"sq",
+				"sqlResultat"
+			],
+			[
+				"s",
+				"sqlResultat"
+			],
+			[
+				"fag",
+				"fagkode"
+			],
+			[
+				"oppgave",
+				"oppgavenr"
+			],
+			[
+				"fa",
+				"faglaerer"
+			],
+			[
+				"Velg",
+				"VelgTabell"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"ps",
+				"poststed"
+			],
+			[
+				"mysqli",
+				"mysqli_fetch"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"dEP",
+				"Department"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"PAD",
+				"padding-top"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"as",
+				"AS"
+			],
+			[
+				"pro",
+				"produkt"
+			],
+			[
+				"lo",
+				"lovligFagkode"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"lov",
+				"lovligPostnr"
+			],
+			[
+				"vale",
+				"validerKlassekode"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"Pso",
+				"poststed"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"onMo",
+				"onmouseout	Attr"
+			],
+			[
+				"tegn",
+				"tegn2"
+			],
+			[
+				"P",
+				"postnr"
+			],
+			[
+				"j",
+				"JOIN"
+			],
+			[
+				"o",
+				"oppgave"
+			],
+			[
+				"on",
+				"ON"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"vi",
+				"video	Tag"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"PO",
+				"_POST"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"p",
+				"php	<?php … ?>"
+			],
+			[
+				"H",
+				"H1	Tag"
+			],
+			[
+				"SQL",
+				"SQL-89"
+			],
+			[
+				"F",
+				"f"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"bord",
+				"border-bottom-width"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"a",
+				"action	Attr"
+			],
+			[
+				"border-c",
+				"border-collapse"
+			],
+			[
+				"br",
+				"brukernavn"
+			],
+			[
+				"kla",
+				"klassekode"
+			],
+			[
+				"FRO",
+				"fornavn"
+			],
+			[
+				"Kl",
+				"klassekode"
+			],
+			[
+				"klas",
+				"klassenavn"
+			],
+			[
+				"kl",
+				"Klassekode"
+			],
+			[
+				"klass",
+				"klassekode"
+			],
+			[
+				"klasse",
+				"Klasseavn"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"KL",
+				"klassekode"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"po",
+				"postnr"
+			],
+			[
+				"startpos",
+				"startposEtternavn"
+			],
+			[
+				"start",
+				"startposFornavn"
+			],
+			[
+				"strip",
+				"stripos"
+			],
+			[
+				"fil",
+				"filoperasjon"
+			],
+			[
+				"FA",
+				"fagkode"
+			],
+			[
+				"f",
+				"FROM"
+			],
+			[
+				"FAG",
+				"fagnavn"
+			],
+			[
+				"IS",
+				"IS1"
+			],
+			[
+				"IN",
+				"Informasjonsytemer"
+			],
+			[
+				"bil",
+				"bildenr"
+			],
+			[
+				"N",
+				"NOT"
+			],
+			[
+				"k",
+				"KEY"
+			],
+			[
+				"n",
+				"NULL"
+			],
+			[
+				"c",
+				"CREATE"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"tal",
+				"tall1"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"padin",
+				"padding-top"
+			],
+			[
+				"boe",
+				"border-top"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"l",
+				"lang	Attr"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"inli",
+				"inline-table"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "meny.php",
+			"settings":
+			{
+				"buffer_size": 324,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "registrere-data-fag.php",
+			"settings":
+			{
+				"buffer_size": 1389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "registrere-data-oppgave.php",
+			"settings":
+			{
+				"buffer_size": 1386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "les-data.php",
+			"settings":
+			{
+				"buffer_size": 2031,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "slett-fag.php",
+			"settings":
+			{
+				"buffer_size": 1106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "listeboks-tabell.php",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "listeboks-fagkode.php",
+			"settings":
+			{
+				"buffer_size": 444,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db-tilkobling.php",
+			"settings":
+			{
+				"buffer_size": 232,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "funksjoner.js",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"last_filter": "htm",
+		"selected_items":
+		[
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"htmlprettify",
+				"HTMLPrettify"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"user",
+				"Preferences: Key Bindings - User"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"view.run_command(\"htmlprettify\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/endre-data.php",
+		"/var/www/html/webprogrammering/semester2/oppgave11/registrere-data-fag.php",
+		"/var/www/html/webprogrammering/semester2/oppgave11/slett-fag.php",
+		"/var/www/html/webprogrammering/semester2/oppgave11/listeboks-fagkode.php",
+		"/var/www/html/webprogrammering/semester2/oppgave11/listeboks-tabell.php",
+		"/var/www/html/webprogrammering/semester2/endre_data.php",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/registrere-student.php",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/registrere-klasse.php",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/index.php",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/meny.php",
+		"/var/www/html/webprogrammering/semester2/oppgave11/funksjoner.js",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/db-tilkobling.php",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/vis-data-registrert.php",
+		"/var/www/html/webprogrammering/semester2/oppgave11/registrere-data-oppgave.php",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/vis-klasse.php",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/index2.php",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/testvis.php",
+		"/var/www/html/webprogrammering/semester2/oppgave11/les-data.php",
+		"/var/www/html/webprogrammering/obligatorisk3-lokal/vis-klasseliste.php",
+		"/var/www/html/webprogrammering/semester2/oppgave11/meny.php",
+		"/var/www/html/webprogrammering/ny/hendelser.js",
+		"/var/www/html/webprogrammering/semester2/oppgave11/index.php",
+		"/home/martin/Desktop/templates/html/Facebook Invite Male.html",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/OBLIG UKE 41.TXT",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/LAB45.sql",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/test3data.sql",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/LAB UKE38 GRUPPE 9.txt",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/lab37-2.sql",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/hostferie.sql",
+		"/var/www/html/webprogrammering/semester2/databasehåndtering.php",
+		"/var/www/html/webprogrammering/semester2/oppgave11/vis-data.php",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/OBLIG UKE 42.TXT",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/lab37.sql",
+		"/var/www/html/webprogrammering/oppgave11/les-data.php",
+		"/var/www/html/webprogrammering/oppgave11/registrere-data.php",
+		"/var/www/html/webprogrammering/oppgave11/index.php",
+		"/var/www/html/webprogrammering/oppgave11/meny.php",
+		"/var/www/html/webprogrammering/oppgave11/db-tilkobling.php",
+		"/var/www/html/webutvikling/cats.html",
+		"/var/www/html/webprogrammering/obligatorisk2-lokal/vis-klasse.php",
+		"/var/www/html/webprogrammering/oppgave11/style.css",
+		"/var/www/html/webprogrammering/obligatorisk2-lokal/index.php",
+		"/var/www/html/webprogramering/ny/kalkulator.php",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/Lab øvelser/Lab uke 42.pdf",
+		"/home/martin/OneDrive/Dokumenter/HBV/Database/Lab øvelser/Lab uke 38.pdf",
+		"/var/www/html/webprogramering/forelesning/nov.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal/vis-klasseliste.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal/index.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal/meny.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal/vis-student.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal/vis-klasse.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal/registrere-klasse.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal/registrere-student.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal/index.html",
+		"/var/www/html/webprogramering/obligatorisk2-lokal/search.php",
+		"/var/www/html/webprogramering/ny/valider.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal /registrere-student.php",
+		"/var/www/html/webprogramering/ny/ajaxforelesning1.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal /registrere-klasse.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal /search.php",
+		"/var/www/html/webprogramering/ny/ajax1.js",
+		"/var/www/html/webprogramering/obligatorisk2-lokal /index.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal /validering.js",
+		"/var/www/html/webprogramering/forelesning/090915/while.php",
+		"/var/www/html/webprogramering/ny/oppgave8-1.php",
+		"/var/www/html/webprogramering/obligatorisk2-lokal /vis-student.php",
+		"/var/www/html/webprogramering/forelesning/170915/validering.php",
+		"/var/www/html/webprogramering/forelesning/071015/valider.php",
+		"/var/www/html/testu/test.html",
+		"/var/www/html/testu/testhendelse.js",
+		"/var/www/html/webprogramering/javascript/hendelser.html",
+		"/var/www/html/webprogramering/obligatorisk2-lokal /hendelser.js",
+		"/var/www/html/webprogramering/ny/hendelserbak.js",
+		"/var/www/html/webprogramering/ny/hendelser.js",
+		"/var/www/html/webprogramering/javascript/hendelser.js",
+		"/var/www/html/webprogramering/ny/8-1.css",
+		"/var/www/html/webutvikling/skoleprosjekt/index.html",
+		"/var/www/html/webprogramering/ny/validering.js",
+		"/var/www/html/webprogramering/ny/oppgave6-2.php",
+		"/var/www/html/webprogramering/obligatorisk1/vis-klasseliste.php",
+		"/var/www/html/webprogramering/ny/oppgave2-6.php",
+		"/var/www/html/webprogramering/oppgave-2-3.php",
+		"/var/www/html/webprogramering/javascript/x.html",
+		"/var/www/html/webprogramering/oppgave-4.html",
+		"/var/www/html/webprogramering/oppgave-2-1.html",
+		"/var/www/html/webprogramering/oppgave-4.php",
+		"/var/www/html/webprogramering/oppgave-2-4.php",
+		"/home/martin/Desktop/index.html",
+		"/var/www/html/salesman/html-template-responsive-php-contact-form/index.php",
+		"/var/www/html/salesman/html-template-responsive-php-contact-form/incl/send-email.php",
+		"/home/martin/Desktop/index.php",
+		"/var/www/html/salesman/html-template-php-contact-form/incl/send-email.php",
+		"/var/www/html/webprogramering/javascript/test1.html",
+		"/var/www/html/webprogramering/javascript/test6.js",
+		"/var/www/html/webprogramering/javascript/test4.js",
+		"/var/www/html/webprogramering/javascript/test3.js",
+		"/var/www/html/salesman/html-template-php-contact-form/index.php",
+		"/var/www/html/webprogramering/javascript/test1.js",
+		"/var/www/html/webprogramering/javascript/test2.js",
+		"/var/www/html/salesman/index.html",
+		"/var/www/html/salesman/css/style.css",
+		"/var/www/html/webprogramering/javascript/test5.js",
+		"/var/www/html/webprogrammering/oppgave-4.php",
+		"/var/www/html/webprogrammering/javascript/test1.html",
+		"/var/www/html/webprogrammering/javascript/test2.js",
+		"/var/www/html/webprogrammering/oppgave-1.php",
+		"/home/martin/.cache/.fr-5GUUeS/thetux_org.crt",
+		"/home/martin/.cache/.fr-2mTV0V/thetux_org.ca-bundle",
+		"/var/www/html/webutvikling/skoleprosjektphp/mint/index.php",
+		"/var/www/html/webutvikling/skoleprosjektphp/css/mint.css",
+		"/home/martin/OneDrive/Skoleprojekt HBV 2015/mint/index (laptop-mint).php",
+		"/home/martin/OneDrive/Skoleprojekt HBV 2015/mint/index.php",
+		"/var/www/html/webutvikling/skoleprosjekt/mint/index.html",
+		"/var/www/html/webutvikling/skoleprosjekt/css/mint.css",
+		"/var/www/html/webutvikling/form1.html",
+		"/var/www/html/webprogramering/ny/oppgave6-1.php",
+		"/var/www/html/webprogramering/obligatorisk1/registrere-klasse.php",
+		"/var/www/html/webprogramering/obligatorisk1-lokal/registrere-student.php",
+		"/var/www/html/webprogramering/forelesning/071015/funksjoner1.php",
+		"/var/www/html/webprogramering/funksjoner.php",
+		"/var/www/html/webprogramering/forelesning/160915/skrivetilfil.php",
+		"/home/martin/OneDrive/Skoleprojekt HBV 2015/mint/index.html",
+		"/var/www/html/webprogramering/obligatorisk1/index.php",
+		"/var/www/html/webutvikling/html5blog.html",
+		"/var/www/html/webutvikling/form2.html",
+		"/var/www/html/webutvikling/dunbar.html",
+		"/var/www/html/webutvikling/dunbarstyle.css",
+		"/var/www/html/webutvikling/dunbarstyle2.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fake",
+			">\n",
+			"2000px",
+			"\"></",
+			"om",
+			"name",
+			"img",
+			"br",
+			"div",
+			"br",
+			";}",
+			"auto",
+			"defau",
+			"synta",
+			"plain",
+			"article1",
+			"black",
+			"contai",
+			"	\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "meny.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "registrere-data-fag.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "registrere-data-oppgave.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "les-data.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "slett-fag.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								555,
+								555
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "listeboks-tabell.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "listeboks-fagkode.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "db-tilkobling.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "funksjoner.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.922028985507,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 81.0
+	},
+	"pinned_build_system": "",
+	"project": "øving.sublime-project",
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

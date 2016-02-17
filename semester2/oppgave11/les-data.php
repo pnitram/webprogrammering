@@ -64,7 +64,7 @@ if ($tabell == "fag") {
 }
 }
 else {
-		for ($r=1;$v<=$antallRader;$v++) {
+		for ($v=1;$v<=$antallRader;$v++) {
 
 	$rad=mysqli_fetch_array($sqlResultat);
 	$fagkode=$rad["fagkode"];

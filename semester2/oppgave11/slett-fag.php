@@ -22,7 +22,7 @@
 <div class="container">
 <form method="post" action="" id="reg-student" name="reg-student" onSubmit="return bekreft()"/>
 <select name='fagkode' id='fagkode'>
-	<?php include("./listeboks-tabell.php"); ?> <br>
+	<?php include("./listeboks-fagkode.php"); ?> <br>
 
 </select>
 		<input type="submit" value="Fortsett" id="fortsett" name="fortsett"/><br>
