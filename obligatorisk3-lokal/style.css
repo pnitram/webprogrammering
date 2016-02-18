@@ -14,7 +14,7 @@
     }
 
     select, option { 
-        width: 90%; 
+        width: 100%; 
         text-align: center;
         margin-bottom: 5px;
     }
