@@ -1,5 +1,5 @@
 <?php
-
+/*
 	function validerKlassekode ($klassekode) {
 	$lovligKlassekode=true;
 	if (!$klassekode) {
@@ -18,5 +18,31 @@
 	}
  return $lovligKlassekode;
 }
+*/
+
+	function validerKlassekode ($klassekode) {
+	$lovligKlassekode=true;
+	if (!$klassekode) {
+		$lovligKlassekode=false;
+	}
+	elseif (strlen($klassekode) < 3) {
+		$lovligKlassekode=false;
+	}
+
+	elseif (!is_numeric(substr($klassekode, -1))) {
+		$lovligKlassekode=false;
+	}
+
+	else {
+	@$tegn1=substr($klassekode, 0, 1);
+	@$tegn2=substr($klassekode, 1, 1);
+} 
+	if (@$tegn1 <"A" || @$tegn1 >"Z" || @$tegn2 <"A" || @$tegn2 >"Z") {
+		$lovligKlassekode=false;
+	}
+ return $lovligKlassekode;
+}
+
+
 
 ?>

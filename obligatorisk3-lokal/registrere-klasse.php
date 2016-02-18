@@ -4,6 +4,7 @@
 	<title>Registrere klasse</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="hendelser.js"></script>
     <script src="validering.js"></script>
     <!--<script src="validering.js"></script>-->

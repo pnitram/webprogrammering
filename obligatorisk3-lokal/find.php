@@ -5,6 +5,7 @@
 
     <link rel="stylesheet" type="text/css" href="./style.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="hendelser.js"></script>
     <script src="soekhendelse.js"></script>
 </head>
@@ -74,7 +75,7 @@ if ($fortsett) {
 			$hode=substr($tekst,0,$startpos);
 			$hale=substr($tekst,$startpos+$sokestrenglengde,$tekstlengde-$startpos-$sokestrenglengde);
 
-			print("$hode<strong>$sokestreng</strong>$hale");
+			print("$hode<strong>$sokestreng</strong>$hale<br>");
 
 
 		}
@@ -116,7 +117,7 @@ if ($fortsett) {
 			$hode=substr($tekst,0,$startpos);
 			$hale=substr($tekst,$startpos+$sokestrenglengde,$tekstlengde-$startpos-$sokestrenglengde);
 
-			print("$hode<strong>$sokestreng</strong>$hale");
+			print("$hode<strong>$sokestreng</strong>$hale<br>");
 
 
 		}

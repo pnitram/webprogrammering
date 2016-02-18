@@ -4,7 +4,17 @@
 	<title>SLETT DATA REGISTRERT I TABELL</title>
 
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <meta charset="utf-8">
+    <meta charset="utf-8">    
+    <script src="hendelser.js"></script>
+    <script src="validering.js"></script>
+    <script>
+    function bekreft() {
+    	return confirm("Er du sikker?");
+    }
+
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 
@@ -18,7 +28,7 @@
 <div class="box">
 <h2>Slett registrert data</h2>
 <div class="container">
-<form method="post" action="" id="slett-data" name="slett-data" onSubmit="return bekreft()"/>
+<form method="post" action="" id="slett-data" name="slett-data" />
 Velg tabell: <select name='velgTabell' id='velgTabell'>
 <?php include("./listeboks-tabell.php"); ?> <br>
 

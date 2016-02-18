@@ -3,7 +3,7 @@
 <head>
 	<title>ENDRE DATA REGISTRERT I TABELL</title>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./style.css">
      <script src="hendelser.js"></script>
 </head>
@@ -100,9 +100,9 @@ if ($fortsettKlasse) {
 		print("<div class='box'>");
 		print("<div class='container'>");
 		print("<form method='post' action='' id='endreSteg3' name='endreSteg3' onSubmit='return bekreft()'/>");
-		print("<h3>Endre $klassenavn:</h3>");
-		print("Klassekode: <input type='text' id='klassekode' name='klassekode' value='$klassekode' readonly /> <br />");
-		print("Klassenavn: <input type='text' id='klassenavn' name='klassenavn' value='$klassenavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRK(this)' onmouseout='musUt(this)' required />"); 
+		print("<h3>Endre klassedata til:</h3> <p><b>Klassekode: </b>$klassekode <br><b>Klassenavn: </b>$klassenavn</p>");
+		print("Klassekode: <i>(kan ikke endres)</i> <input type='text' id='klassekode' name='klassekode' value='$klassekode' readonly /> <br />");
+		print("Nytt klassenavn: <input type='text' id='klassenavn' name='klassenavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRK(this)' onmouseout='musUt(this)' required />"); 
 		print("<br><input type='submit' value='Endre' id='fortsett3' name='fortsett3'/>");
 		print("<input type='reset' value='Nullstill' id='nullstill' name='nullstill'/>");
 		print("</form>");
@@ -159,11 +159,14 @@ if ($fortsettStudent) {
 		print("<div class='box'>");
 		print("<div class='container'>");
 		print("<form method='post' action='' id='endreSteg4' name='endreSteg4' onSubmit='return bekreft()'/>");
-		print("<h3>Endre $fornavn $etternavn:</h3> ");
-		print("Brukernavn: <input type='text' id='brukernavn' name='brukernavn' value='$brukernavn' readonly /> <br />");
-		print("Fornavn: <input type='text' id='fornavn' name='fornavn' value='$fornavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/>");
-		print("Etternavn: <input type='text' id='etternavn' name='etternavn' value='$etternavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/> <br />");
-		print("Klassekode: <input type='text' id='klassekode' name='klassekode' value='$klassekode' readonly />");
+		print("<h3>Endre studentdata til:</h3><p><strong>Brukernavn:</strong> $brukernavn<br><strong>Navn:</strong> $fornavn $etternavn <br><strong>Klassekode:</strong> $klassekode </p> ");
+		print("Brukernavn: <i>(kan ikke endres)</i> <input type='text' id='brukernavn' name='brukernavn' value='$brukernavn' readonly /> <br />");
+		print("Fornavn: <input type='text' id='fornavn' name='fornavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/>");
+		print("Etternavn: <input type='text' id='etternavn' name='etternavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/> <br />");
+		print("Velg klasse: ");
+		print("<select name='klassekode'>");
+		include("./listeboks-klassekode-reg.php");
+		print("</select>");
 		print("<br><input type='submit' value='Endre' id='fortsett4' name='fortsett4'/>");
 		print("<input type='reset' value='Nullstill' id='nullstill' name='nullstill'/>");
 		print("</form>");
@@ -189,7 +192,7 @@ if ($fortsett4){
 
 	else {
 
-		$sqlSetning="UPDATE student SET fornavn='$fornavn', etternavn='$etternavn' WHERE brukernavn='$brukernavn';";
+		$sqlSetning="UPDATE student SET fornavn='$fornavn', etternavn='$etternavn', klassekode='$klassekode' WHERE brukernavn='$brukernavn';";
 		mysqli_query($db, $sqlSetning) or die ("Ikke mulig å endre i $database: " .mysqli_error() );
 		print("Data er endre på student med brukernavn $brukernavn");
 	}

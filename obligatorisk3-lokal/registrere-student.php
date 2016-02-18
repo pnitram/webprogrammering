@@ -3,6 +3,7 @@
 <head>
 	<title>Registrere student</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <script src="hendelser.js"></script>
     <script src="validering.js"></script>
@@ -25,7 +26,8 @@
 Brukernavn: <input type="text" id="brukernavn" name="brukernavn" onfocus="fokus(this)" onblur="mistetFokus(this)" onmouseover="musOverRS(this)" onmouseout="musUt(this)" required/><br>
 Fornavn: <input type="text" id="fornavn" name="fornavn" onfocus="fokus(this)" onblur="mistetFokus(this)" onmouseover="musOverRS(this)" onmouseout="musUt(this)" required/><br>
 Etternavn: <input type="text" id="etternavn" name="etternavn" onfocus="fokus(this)" onblur="mistetFokus(this)" onmouseover="musOverRS(this)" onmouseout="musUt(this)" required/><br>
-Klassekode: <input type="text" id="klassekode" name="klassekode" onfocus="fokus(this)" onblur="mistetFokus(this)" onmouseover="musOverRS(this)" onmouseout="musUt(this)" onchange="tilStore(this)" /* onkeyup="finn(this.value)"*/ required /><br>
+Klassekode:<br> <select name='klassekode' id='klassekode'>
+<?php include("./listeboks-klassekode-reg.php"); ?></select><br>
 		<input type="submit" value="Fortsett" id="fortsett" name="fortsett"/><br>
 		<input type="reset" value="Nullstill" id="nullstill" name="nullstill"/>
 </form>

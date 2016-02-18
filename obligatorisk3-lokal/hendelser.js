@@ -9,7 +9,7 @@ function mistetFokus(element) {
 function musOverRK(element) {
 	document.getElementById("melding").style.color="black";
 	if (element == document.getElementById('klassekode')){
-		document.getElementById("melding").innerHTML="Klassekode skal bestå av 3 tegn(2 store bokstaver og 1 siffer).";
+		document.getElementById("melding").innerHTML="Kun STORE BOKSTAVER og siste tegn ett siffer.";
 	}
 	if (element == document.getElementById('klassenavn')){
 		document.getElementById("melding").innerHTML="Klassenavn må fylles ut.";
@@ -28,14 +28,14 @@ function musOverRS(element) {
 		document.getElementById("melding").innerHTML="Etternavn må fylles ut.";
 	}
 		if (element == document.getElementById('klassekode')){
-		document.getElementById("melding").innerHTML="Klassekode skal bestå av 3 tegn(2 store bokstaver og 1 siffer).";
+		document.getElementById("melding").innerHTML="Kun STORE BOKSTAVER og siste tegn ett siffer.";
 	}
 }
 
 function musOverKL(element) {
 	document.getElementById("melding").style.color="black";
 	if (element == document.getElementById('search')){
-		document.getElementById("melding").innerHTML="Klassekode skal bestå av 3 tegn(2 store bokstaver og 1 siffer).";
+		document.getElementById("melding").innerHTML="Kun STORE BOKSTAVER og siste tegn ett siffer.";
 	}
 }
 
