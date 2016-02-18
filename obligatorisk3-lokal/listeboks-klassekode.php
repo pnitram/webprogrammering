@@ -13,6 +13,6 @@ include("./db-tilkobling.php");
   		$klassekode=$rad["0"];
   		$klassenavn=$rad["1"];
   	
-		print("<option value='$klassekode' name='klassekode'>$klassenavn</option> <br>");
+		print("<option value='$klassekode' name='velgKlassekode'>$klassekode - $klassenavn</option> <br>");
   	}
 ?>

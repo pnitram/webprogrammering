@@ -34,7 +34,6 @@ Velg tabell: <select name='velgTabell' id='velgTabell'>
 
 </select>
 		<input type="submit" value="Fortsett" id="fortsett" name="fortsett"/><br>
-		<input type="reset" value="Nullstill" id="nullstill" name="nullstill"/>
 </form>
 </div>
 </div>

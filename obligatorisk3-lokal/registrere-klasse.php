@@ -36,7 +36,7 @@ Klassenavn: <input type="text" id="klassenavn" name="klassenavn" onfocus="fokus(
 @$fortsett=$_POST["fortsett"];
     @$klassekode=$_POST["klassekode"];
     @$klassenavn=$_POST["klassenavn"];
-    @$klassekode=strtoupper($klassekode);
+    /*@$klassekode=strtoupper($klassekode);*/
 
 if ($fortsett) {
 if (!$klassekode || !$klassenavn) {

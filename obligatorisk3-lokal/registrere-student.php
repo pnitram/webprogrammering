@@ -42,7 +42,7 @@ Klassekode:<br> <select name='klassekode' id='klassekode'>
     @$fornavn=$_POST["fornavn"];
     @$etternavn=$_POST["etternavn"];
 	@$klassekode=$_POST["klassekode"];
-    @$klassekode=strtoupper($klassekode);
+    /*@$klassekode=strtoupper($klassekode);*/
 
 
 if ($fortsett) {

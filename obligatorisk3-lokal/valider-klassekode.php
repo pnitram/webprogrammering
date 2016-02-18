@@ -29,17 +29,19 @@
 		$lovligKlassekode=false;
 	}
 
-	elseif (!is_numeric(substr($klassekode, -1))) {
-		$lovligKlassekode=false;
+	/*elseif (!is_numeric(substr($klassekode, -1)))*/
+	/*BENYTTER REGEX HER */
+	elseif (!preg_match("/[A-Z]+[0-9]$/", $klassekode)) {
+	 	$lovligKlassekode=false;		
 	}
-
+/*
 	else {
 	@$tegn1=substr($klassekode, 0, 1);
 	@$tegn2=substr($klassekode, 1, 1);
 } 
 	if (@$tegn1 <"A" || @$tegn1 >"Z" || @$tegn2 <"A" || @$tegn2 >"Z") {
 		$lovligKlassekode=false;
-	}
+	}*/
  return $lovligKlassekode;
 }
 
