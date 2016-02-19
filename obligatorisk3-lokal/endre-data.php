@@ -164,7 +164,7 @@ if ($fortsettStudent) {
 		print("Brukernavn: <i>(kan ikke endres)</i> <input type='search' id='brukernavn' name='brukernavn' value='$brukernavn' readonly /> <br />");
 		print("Fornavn: <input type='text' id='fornavn' name='fornavn' value='$fornavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/>");
 		print("Etternavn: <input type='text' id='etternavn' name='etternavn' value='$etternavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)'  required/> <br />");
-		print("<strong>Velg klasse: </strong><br><i>(klassekode - klassenavn)</i><select name='velgKlasse' id='velgKlasse'>");
+		print("<strong>Velg klasse: </strong><br><i>(klassekode - klassenavn)</i>");
 		print("<select name='klassekode'>");
 		include("./listeboks-klassekode-reg.php");
 		print("</select>");
