@@ -15,6 +15,6 @@ include("./db-tilkobling.php");
       $etternavn=$rad["2"];
       $klassekode=$rad["3"];
   	
-		print("<option value='$brukernavn' name='brukernavn'>$fornavn $etternavn</option> <br>");
+		print("<option value='$brukernavn' name='brukernavn'>$brukernavn - $fornavn $etternavn</option> <br>");
   	}
 ?>

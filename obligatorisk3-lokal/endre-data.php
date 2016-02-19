@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./style.css">
      <script src="hendelser.js"></script>
+     <script src="clearForm.js"></script>
 </head>
 <body>
 
@@ -50,7 +51,7 @@ if ($tabell == "klasse") {
 	print("<div class='box'>");
 	print("<div class='container'>");
 	print("<form method='post' action='' id='endreKlasse' name='endreKlasse' onSubmit='return bekreft()'/>");
-	print("<strong>Velg klasse: </strong><select name='velgKlasse' id='velgKlasse'>");
+	print("<strong>Velg klasse: </strong><br><i>(klassekode - klassenavn)</i><select name='velgKlasse' id='velgKlasse'>");
 	include("./listeboks-klassekode.php");
 	print("");
 	print("</select>");
@@ -66,7 +67,7 @@ else {
 	print("<div class='box'>");
 	print("<div class='container'>");
 	print("<form method='post' action='' id='endreStudent' name='endreStudent' onSubmit='return bekreft()'/>");
-	print("<strong>Velg student: </strong><select name='velgStudent' id='velgStudent'>");
+	print("<strong>Velg student: </strong><br><i>(brukernavn - navn)</i><select name='velgStudent' id='velgStudent'>");
 	include("./listeboks-student.php");
 	print("");
 	print("</select>");
@@ -101,10 +102,10 @@ if ($fortsettKlasse) {
 		print("<div class='container'>");
 		print("<form method='post' action='' id='endreSteg3' name='endreSteg3' onSubmit='return bekreft()'/>");
 		print("<h3>Endre klassedata til:</h3> <p><b>Klassekode: </b>$klassekode <br><b>Klassenavn: </b>$klassenavn</p>");
-		print("Klassekode: <i>(kan ikke endres)</i> <input type='text' id='klassekode' name='klassekode' value='$klassekode' readonly /> <br />");
-		print("Nytt klassenavn: <input type='text' id='klassenavn' name='klassenavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRK(this)' onmouseout='musUt(this)' required />"); 
+		print("Klassekode: <i>(kan ikke endres)</i> <input type='search' id='klassekode' name='klassekode' value='$klassekode' value='$klassekode' readonly /> <br />");
+		print("Nytt klassenavn: <input type='text' id='klassenavn' name='klassenavn' value='$klassenavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRK(this)' onmouseout='musUt(this)' required />"); 
 		print("<br><input type='submit' value='Endre' id='fortsett3' name='fortsett3'/>");
-		print("<input type='reset' value='Nullstill' id='nullstill' name='nullstill'/>");
+		print("<input type='button' value='Nullstill' id='nullstill' name='nullstill' onclick='clearForm(this.form)' />");
 		print("</form>");
 		print("</div>");
 		print("</div>");
@@ -160,15 +161,15 @@ if ($fortsettStudent) {
 		print("<div class='container'>");
 		print("<form method='post' action='' id='endreSteg4' name='endreSteg4' onSubmit='return bekreft()'/>");
 		print("<h3>Endre studentdata til:</h3><p><strong>Brukernavn:</strong> $brukernavn<br><strong>Navn:</strong> $fornavn $etternavn <br><strong>Klassekode:</strong> $klassekode </p> ");
-		print("Brukernavn: <i>(kan ikke endres)</i> <input type='text' id='brukernavn' name='brukernavn' value='$brukernavn' readonly /> <br />");
-		print("Fornavn: <input type='text' id='fornavn' name='fornavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/>");
-		print("Etternavn: <input type='text' id='etternavn' name='etternavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/> <br />");
+		print("Brukernavn: <i>(kan ikke endres)</i> <input type='search' id='brukernavn' name='brukernavn' value='$brukernavn' readonly /> <br />");
+		print("Fornavn: <input type='text' id='fornavn' name='fornavn' value='$fornavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)' required/>");
+		print("Etternavn: <input type='text' id='etternavn' name='etternavn' value='$etternavn' onfocus='fokus(this)' onblur='mistetFokus(this)' onmouseover='musOverRS(this)' onmouseout='musUt(this)'  required/> <br />");
 		print("Velg klasse: ");
 		print("<select name='klassekode'>");
 		include("./listeboks-klassekode-reg.php");
 		print("</select>");
 		print("<br><input type='submit' value='Endre' id='fortsett4' name='fortsett4'/>");
-		print("<input type='reset' value='Nullstill' id='nullstill' name='nullstill'/>");
+		print("<input type='button' value='Nullstill' id='nullstill' name='nullstill' onclick='clearForm(this.form)' />");
 		print("</form>");
 		print("</div>");
 		print("</div>");
