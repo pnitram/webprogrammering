@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
      <script src="hendelser.js"></script>
      <script src="clearForm.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 <body>
 
@@ -155,6 +156,7 @@ if ($fortsettStudent) {
 		$fornavn=$rad["fornavn"];
 		$etternavn=$rad["etternavn"];
 		$klassekode=$rad["klassekode"];
+		$klassekodePreSelected=$klassekode;
 
 
 		print("<div class='box'>");
